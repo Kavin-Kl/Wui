@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:apsl_sun_calc/apsl_sun_calc.dart';
 import 'package:model_viewer_plus/model_viewer_plus.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -23,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen>
   Duration totalDuration = Duration.zero;
 
   final String audioUrl =
-      "https://raw.githubusercontent.com/Kavin-Kl/assets/main/Enna-Naan-Seiven-MassTamilan.com.mp3";
+      "https://ia800504.us.archive.org/31/items/neela-vaanam-mass-tamilan.com/Neela-Vaanam-MassTamilan.com.mp3";
 
   @override
   void initState() {
@@ -236,7 +235,7 @@ class _HomeScreenState extends State<HomeScreen>
             ],
           ),
           const Text(
-            '58°F',
+            '90s',
             style: TextStyle(
               fontSize: 56,
               fontFamily: 'Orbitron',

@@ -45,5 +45,24 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<!-- App Transport Security (for development only; restrict this in production) -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+
+	<!-- Flutter embedded views support -->
+	<key>io.flutter.embedded_views_preview</key>
+	<true/>
+
+	<!-- Optional: Add permissions if your app uses camera, location, etc. -->
+	<!--
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires camera access</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs your location to work properly</string>
+	-->
 </dict>
 </plist>
